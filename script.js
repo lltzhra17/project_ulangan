@@ -37,18 +37,6 @@ correct:2
 },
 
 {
-question:"JavaScript digunakan untuk?",
-answers:[
-"Membuat website interaktif",
-"Mengedit foto",
-"Membuat tabel",
-"Membuat struktur website",
-"Mengelola data"
-],
-correct:0
-},
-
-{
 question:"PHP dijalankan di?",
 answers:[
 "Chrome",
@@ -97,18 +85,6 @@ correct:2
 },
 
 {
-question:"Fungsi alert() pada JavaScript?",
-answers:[
-"Menampilkan notifikasi browser",
-"Membuat pesan peringatan",
-"Menampilkan kotak dialog",
-"Menyimpan pesan ke database",
-"Menampilkan popup"
-],
-correct:4
-},
-
-{
 question:"Tag heading terbesar di HTML?",
 answers:[
 "<h6>",
@@ -146,18 +122,6 @@ correct:1
 },
 
 {
-question:"Cara membuat variabel di JavaScript?",
-answers:[
-"var nama",
-"create nama",
-"string nama",
-"v nama",
-"new variable"
-],
-correct:0
-},
-
-{
 question:"Tag form HTML adalah?",
 answers:[
 "<table>",
@@ -179,18 +143,6 @@ answers:[
 "?php"
 ],
 correct:1
-},
-
-{
-question:"Method untuk output di JavaScript?",
-answers:[
-"print()",
-"echo()",
-"show()",
-"console.log()",
-"display()"
-],
-correct:3
 },
 
 {
@@ -218,27 +170,15 @@ correct:0
 },
 
 {
-question:"JavaScript biasanya ditulis di dalam tag?",
-answers:[
-"<js>",
-"<script>",
-"<javascript>",
-"<code>",
-"<style>"
+question: "Tag untuk membuat video di HTML adalah?",
+answers: [
+"<movie>",
+"<media>",
+"<mp4>",
+"<video>",
+"<play>"
 ],
-correct:1
-},
-
-{
-question:"Fungsi document.getElementById() adalah?",
-answers:[
-"Membuat elemen HTML",
-"Menghapus elemen website",
-"Mengambil elemen berdasarkan id",
-"Menyimpan data ke database",
-"Mengubah file JavaScript"
-],
-correct:2
+correct: 3
 },
 
 {
@@ -290,30 +230,6 @@ correct:1
 },
 
 {
-question:"JavaScript termasuk bahasa?",
-answers:[
-"Styling",
-"Markup",
-"Database",
-"Pemrograman",
-"Framework"
-],
-correct:3
-},
-
-{
-question:"Fungsi Math.random()?",
-answers:[
-"Mengacak array",
-"Membuat angka urut",
-"Membulatkan angka",
-"Menghitung operasi matematika",
-"Membuat angka acak"
-],
-correct:4
-},
-
-{
 question:"Property CSS untuk memberi jarak dalam?",
 answers:[
 "margin",
@@ -338,15 +254,15 @@ correct:4
 },
 
 {
-question:"Fungsi confirm() di JavaScript?",
-answers:[
-"Membuat kotak konfirmasi",
-"Menampilkan popup biasa",
-"Menyimpan data pengguna",
-"Menampilkan notifikasi browser",
-"Membuat pesan peringatan"
+question: "Penulisan CSS yang benar adalah?",
+answers: [
+"body = color:red;",
+"body {color:red;}",
+"body : color=red;",
+"body <color:red>",
+"body => color:red"
 ],
-correct:0
+correct: 1
 },
 
 {
@@ -410,27 +326,27 @@ correct:2
 },
 
 {
-question:"Fungsi parseInt()?",
-answers:[
-"Mengubah string menjadi integer",
-"Menghapus angka desimal",
-"Membulatkan angka",
-"Mengubah integer menjadi string",
-"Menghitung jumlah angka"
+question: "Selector untuk memilih id di CSS menggunakan simbol?",
+answers: [
+"#",
+".",
+"@",
+"$",
+"&"
 ],
-correct:0
+correct: 0
 },
 
 {
-question:"Array di JavaScript ditulis menggunakan?",
-answers:[
-"{}",
-"[]",
-"()",
-"<>",
-"||"
+question: "PHP singkatan dari?",
+answers: [
+"Private Home Page",
+"PHP Hypertext Preprocessor",
+"Programming Hyper Process",
+"Personal Hyper Program",
+"Program Home Page"
 ],
-correct:1
+correct: 1
 },
 
 {
@@ -446,39 +362,39 @@ correct:2
 },
 
 {
-question:"Fungsi else pada JavaScript?",
-answers:[
-"Membuat kondisi baru",
-"Mengulang perintah",
-"Menghentikan program",
-"Membuat variabel cadangan",
-"Percabangan alternatif"
-],
-correct:4
-},
-
-{
-question:"Looping untuk pengulangan di JS?",
-answers:[
-"repeat",
+question: "Perintah untuk membuat percabangan di PHP adalah?",
+answers: [
 "loop",
-"for",
-"foreach",
-"iterate"
+"switch",
+"repeat",
+"break",
+"if"
 ],
-correct:2
+correct: 4
+},
+  
+{
+question: "Operator penggabung string di PHP adalah?",
+answers: [
+"+",
+"&",
+".",
+"*",
+"%"
+],
+correct: 2
 },
 
 {
-question:"JavaScript dapat mengubah?",
-answers:[
-"Struktur website",
-"Interaksi website",
-"Tampilan website",
-"Isi HTML secara dinamis",
-"Database MySQL langsung"
+question: "Atribut untuk membuka link di tab baru adalah?",
+answers: [
+"target='_blank'",
+"new='tab'",
+"href='blank'",
+"open='new'",
+"tab='new'"
 ],
-correct:1
+correct: 0
 },
 
 {
