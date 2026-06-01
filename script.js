@@ -37,18 +37,6 @@ correct:2
 },
 
 {
-question:"JavaScript digunakan untuk?",
-answers:[
-"Membuat website interaktif",
-"Mengedit foto",
-"Membuat tabel",
-"Membuat struktur website",
-"Mengelola data"
-],
-correct:0
-},
-
-{
 question:"PHP dijalankan di?",
 answers:[
 "Chrome",
@@ -97,18 +85,6 @@ correct:2
 },
 
 {
-question:"Fungsi alert() pada JavaScript?",
-answers:[
-"Menampilkan notifikasi browser",
-"Membuat pesan peringatan",
-"Menampilkan kotak dialog",
-"Menyimpan pesan ke database",
-"Menampilkan popup"
-],
-correct:4
-},
-
-{
 question:"Tag heading terbesar di HTML?",
 answers:[
 "<h6>",
@@ -141,20 +117,7 @@ answers:[
 "Membuat variabel",
 "Menghapus output"
 ],
-
 correct:1
-},
-
-{
-question:"Cara membuat variabel di JavaScript?",
-answers:[
-"var nama",
-"create nama",
-"string nama",
-"v nama",
-"new variable"
-],
-correct:0
 },
 
 {
@@ -182,15 +145,183 @@ correct:1
 },
 
 {
-question:"Method untuk output di JavaScript?",
+question:"Tag untuk membuat paragraf adalah?",
 answers:[
-"print()",
-"echo()",
-"show()",
-"console.log()",
-"display()"
+"<text>",
+"<p>",
+"<paragraph>",
+"<pg>",
+"<paragraf>"
+],
+correct:1
+},
+
+{
+question:"Tag untuk membuat baris baru adalah?",
+answers:[
+"<newline>",
+"<lb>",
+"<next>",
+"<br>",
+"<break>"
 ],
 correct:3
+},
+
+{
+question:"Tag untuk membuat teks tebal adalah?",
+answers:[
+"<strong>",
+"<bold>",
+"<fat>",
+"<b>",
+"<big>"
+],
+correct:3
+},
+
+{
+question:"Tag untuk membuat teks miring adalah?",
+answers:[
+"<italic>",
+"<em>",
+"<i>",
+"<slant>",
+"<it>"
+],
+correct:2
+},
+
+{
+question:"Atribut HTML untuk menentukan tujuan link adalah?",
+answers:[
+"src",
+"href",
+"link",
+"url",
+"path"
+],
+correct:1
+},
+
+{
+question:"Tag untuk menampilkan video adalah?",
+answers:[
+"<movie>",
+"<video>",
+"<media>",
+"<play>",
+"<vid>"
+],
+correct:1
+},
+
+{
+question:"Tag untuk membuat input teks adalah?",
+answers:[
+"<textbox>",
+"<text>",
+'<input type="text">',
+"<field>",
+"<inputtext>"
+],
+correct:2
+},
+
+{
+question:"Properti CSS untuk mengubah ukuran teks?",
+answers:[
+"text-size",
+"size",
+"font",
+"font-size",
+"text-font"
+],
+correct:3
+},
+
+{
+question:"Properti CSS untuk mengubah jenis font?",
+answers:[
+"font-style",
+"font-family",
+"text-family",
+"font-type",
+"family"
+],
+correct:1
+},
+
+{
+question:"Properti CSS untuk memberi garis tepi?",
+answers:[
+"outline",
+"line",
+"frame",
+"stroke",
+"border"
+],
+correct:4
+},
+
+{
+question:"Properti CSS untuk memberi jarak luar?",
+answers:[
+"padding",
+"spacing",
+"outside",
+"margin",
+"gap"
+],
+correct:3
+},
+
+{
+question:"Properti CSS untuk menggarisbawahi teks?",
+answers:[
+"text-line",
+"text-decoration",
+"underline",
+"font-decoration",
+"line-text"
+],
+correct:1
+},
+
+{
+question:"PHP merupakan bahasa pemrograman yang berjalan di?",
+answers:[
+"Database",
+"Browser",
+"Client",
+"Editor",
+"Server"
+],
+correct:4
+},
+
+{
+question:"Fungsi isset() pada PHP digunakan untuk?",
+answers:[
+"Menghapus variabel",
+"Mengecek variabel ada atau tidak",
+"Membuat variabel",
+"Menyimpan variabel",
+"Mengubah variabel"
+],
+correct:1
+},
+
+{
+question:"Operator penggabung string pada PHP adalah?",
+answers:[
+"+",
+"&",
+".",
+",",
+":"
+],
+correct:2
 },
 
 {
@@ -215,30 +346,6 @@ answers:[
 "Cascading Style System"
 ],
 correct:0
-},
-
-{
-question:"JavaScript biasanya ditulis di dalam tag?",
-answers:[
-"<js>",
-"<script>",
-"<javascript>",
-"<code>",
-"<style>"
-],
-correct:1
-},
-
-{
-question:"Fungsi document.getElementById() adalah?",
-answers:[
-"Membuat elemen HTML",
-"Menghapus elemen website",
-"Mengambil elemen berdasarkan id",
-"Menyimpan data ke database",
-"Mengubah file JavaScript"
-],
-correct:2
 },
 
 {
@@ -278,42 +385,6 @@ correct:2
 },
 
 {
-question:"Fungsi onclick pada HTML?",
-answers:[
-"Mengubah warna website",
-"Menjalankan aksi saat diklik",
-"Membuat tombol otomatis",
-"Menghapus elemen HTML",
-"Menyimpan data pengguna"
-],
-correct:1
-},
-
-{
-question:"JavaScript termasuk bahasa?",
-answers:[
-"Styling",
-"Markup",
-"Database",
-"Pemrograman",
-"Framework"
-],
-correct:3
-},
-
-{
-question:"Fungsi Math.random()?",
-answers:[
-"Mengacak array",
-"Membuat angka urut",
-"Membulatkan angka",
-"Menghitung operasi matematika",
-"Membuat angka acak"
-],
-correct:4
-},
-
-{
 question:"Property CSS untuk memberi jarak dalam?",
 answers:[
 "margin",
@@ -338,16 +409,17 @@ correct:4
 },
 
 {
-question:"Fungsi confirm() di JavaScript?",
+question:"Perintah untuk menampilkan informasi PHP adalah?",
 answers:[
-"Membuat kotak konfirmasi",
-"Menampilkan popup biasa",
-"Menyimpan data pengguna",
-"Menampilkan notifikasi browser",
-"Membuat pesan peringatan"
+"php()",
+"showphp()",
+"phpinfo()",
+"infophp()",
+"info()"
 ],
-correct:0
+correct:2
 },
+
 
 {
 question:"Tag untuk membuat garis horizontal?",
@@ -369,18 +441,6 @@ answers:[
 "font-style",
 "font-weight",
 "text-bold"
-],
-correct:3
-},
-
-{
-question:"Fungsi innerHTML digunakan untuk?",
-answers:[
-"Menghapus elemen HTML",
-"Mengatur style CSS",
-"Membuat variabel baru",
-"Mengubah isi HTML",
-"Menyimpan data website"
 ],
 correct:3
 },
@@ -410,30 +470,6 @@ correct:2
 },
 
 {
-question:"Fungsi parseInt()?",
-answers:[
-"Mengubah string menjadi integer",
-"Menghapus angka desimal",
-"Membulatkan angka",
-"Mengubah integer menjadi string",
-"Menghitung jumlah angka"
-],
-correct:0
-},
-
-{
-question:"Array di JavaScript ditulis menggunakan?",
-answers:[
-"{}",
-"[]",
-"()",
-"<>",
-"||"
-],
-correct:1
-},
-
-{
 question:"Properti CSS untuk rata tengah teks?",
 answers:[
 "text-center",
@@ -443,42 +479,6 @@ answers:[
 "font-align"
 ],
 correct:2
-},
-
-{
-question:"Fungsi else pada JavaScript?",
-answers:[
-"Membuat kondisi baru",
-"Mengulang perintah",
-"Menghentikan program",
-"Membuat variabel cadangan",
-"Percabangan alternatif"
-],
-correct:4
-},
-
-{
-question:"Looping untuk pengulangan di JS?",
-answers:[
-"repeat",
-"loop",
-"for",
-"foreach",
-"iterate"
-],
-correct:2
-},
-
-{
-question:"JavaScript dapat mengubah?",
-answers:[
-"Struktur website",
-"Interaksi website",
-"Tampilan website",
-"Isi HTML secara dinamis",
-"Database MySQL langsung"
-],
-correct:1
 },
 
 {
@@ -494,6 +494,7 @@ correct:2
 }
 
 ];
+
 
 let currentQuestion = 0;
 let answersUser = [];
